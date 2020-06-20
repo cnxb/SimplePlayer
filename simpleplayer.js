@@ -9,8 +9,8 @@ $("player").hover(function () {
         "border-bottom-width": "10px",
         "border-left-width": "10px",
         "border-right-width": "10px",
-        "width": "50px",
-        "height": "50px"
+        "width": "70px",
+        "height": "70px"
 
     }, 100);
     $(this).find(".player_icon").addClass("fa-inverse");
@@ -24,8 +24,8 @@ $("player").hover(function () {
         "border-bottom-width": "5px",
         "border-left-width": "5px",
         "border-right-width": "5px",
-        "width": "60px",
-        "height": "60px"
+        "width": "80px",
+        "height": "80px"
     }, 100);
     /*$(".container").css("box-shadow","0px 0px 0px 0px #00000048")*/
     $(this).find(".player_icon").removeClass("fa-inverse");
