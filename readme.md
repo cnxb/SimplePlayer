@@ -20,10 +20,19 @@
 ```
 ## 插入播放器
 自定义音乐
+黑
 ```
 <body>
     ...
-    <player url="音乐地址"></player>
+    <player url="音乐地址" class="player_dark"></player>
+    ...
+</body>
+```
+白
+```
+<body>
+    ...
+    <player url="音乐地址" class="player_light"></player>
     ...
 </body>
 ```
@@ -31,7 +40,8 @@
 ```
 <body>
     ...
-    <player url="https://music.163.com/song/media/outer/url?id=网易云音乐id"></player>
+    <player url="https://music.163.com/song/media/outer/url?id=网易云音乐id" class="player_light"></player>
+    <player url="https://music.163.com/song/media/outer/url?id=网易云音乐id" class="player_dark"></player>
     ...
 </body>
 ```
