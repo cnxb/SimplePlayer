@@ -2,7 +2,7 @@
 
 
 $("player").hover(function () {
-    $(this).css("backdrop-filter", "invert(1)");
+    $(this).css("backdrop-filter", "");
     $(this).animate({
         "backgroundColor": "rgba(0,0,0,1)",
         "border-top-width": "10px",
@@ -17,7 +17,7 @@ $("player").hover(function () {
     /*$(".container").css("box-shadow","0px 0px 20px 10px #00000048")*/
 
 }, function () {
-    $(this).css("backdrop-filter", "invert(0)");
+    $(this).css("backdrop-filter", "");
     $(this).animate({
         "backgroundColor": "rgba(0,0,0,0)",
         "border-top-width": "5px",
