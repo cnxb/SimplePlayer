@@ -1,4 +1,5 @@
 # SimplePlayer
+[Demo](https://player.cogito.ga/)
 ## 引入播放器
 在head标签内引入所需的库
 ```
