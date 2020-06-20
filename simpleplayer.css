@@ -7,7 +7,6 @@ player {
     justify-content: center;
     overflow: hidden;
     border: 5px solid;
-    filter: invert(0.9);
 
 }
 .player_icon{
