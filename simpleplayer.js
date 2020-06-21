@@ -1,6 +1,6 @@
 
 
-
+/*
 $("player.player_dark").hover(function () {
     $(this).css("backdrop-filter", "blur(10px)");
     $(this).animate({
@@ -14,7 +14,7 @@ $("player.player_dark").hover(function () {
 
     }, 100);
     $(this).find(".player_icon").removeClass("fa-inverse");
-    /*$(".container").css("box-shadow","0px 0px 20px 10px #00000048")*/
+    /*$(".container").css("box-shadow","0px 0px 20px 10px #00000048")*//*
 
 }, function () {
     $(this).css("backdrop-filter", "blur(5px)");
@@ -27,12 +27,12 @@ $("player.player_dark").hover(function () {
         "width": "60px",
         "height": "60px"
     }, 100);
-    /*$(".container").css("box-shadow","0px 0px 0px 0px #00000048")*/
+    /*$(".container").css("box-shadow","0px 0px 0px 0px #00000048")*//*
     $(this).find(".player_icon").addClass("fa-inverse");
 
 }
 
-);
+);/*
 $("player.player_light").hover(function () {
     $(this).css("backdrop-filter", "blur(10px)");
     $(this).animate({
@@ -47,7 +47,7 @@ $("player.player_light").hover(function () {
     }, 100);
     
     $(this).find(".player_icon").addClass("fa-inverse");
-    /*$(".container").css("box-shadow","0px 0px 20px 10px #00000048")*/
+    /*$(".container").css("box-shadow","0px 0px 20px 10px #00000048")*//*
 
 }, function () {
     $(this).css("backdrop-filter", "blur(5px)");
@@ -60,12 +60,12 @@ $("player.player_light").hover(function () {
         "width": "70px",
         "height": "70px"
     }, 100);
-    /*$(".container").css("box-shadow","0px 0px 0px 0px #00000048")*/
+    /*$(".container").css("box-shadow","0px 0px 0px 0px #00000048")*//*
     $(this).find(".player_icon").removeClass("fa-inverse");
 
 }
 
-);
+);*/
 $("player").click(function () {
     if ($(this).find(".player_icon").hasClass("fa-play")) {
         $(this).find(".player_icon").css("transform", "rotate(360deg)");
