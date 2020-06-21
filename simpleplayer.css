@@ -1,20 +1,23 @@
 player {
     width: 70px;
     height: 70px;
-    display: flex;
+    display: flex !important;
     border-radius: 50%;
-    align-items: center;
+    align-items: center !important;
     justify-content: center;
     overflow: hidden;
     border: 5px solid;
-
+    box-sizing: unset !important;
 }
 .player_icon{
     transition: transform 0.5s ease 0s;
 }
 .player_dark{
-    border-color:white
+    border-color:white;
+    color:black;
+
 }
 .player_light{
     border-color:black
+    color:white;
 }
