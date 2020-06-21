@@ -1,6 +1,4 @@
 
-
-
 $("player.player_dark").hover(function () {
     $(this).find(".player_icon").removeClass("player_icon_white");
     $(this).find(".player_icon").addClass("player_icon_black");
@@ -46,10 +44,10 @@ for (i = 0; i < $("player").length; i++) {
     audio[i] = new Audio($("player").eq(i).attr("url"));
     $("player").eq(i).attr("id", i);
     if($("player").eq(i).hasClass("player_light")){
-        $("player").html('<i class="fa fa-play  fa-2x player_icon_light player_icon"></i>')
+        $("player").html('<i class="player_icon"></i>')
 
     }else{
-        $("player").html('<i class="fa fa-play  fa-2x player_icon_dark player_icon"></i>')
+        $("player").html('<i class="player_icon"></i>')
 
 
     }
@@ -64,3 +62,5 @@ for (i = 0; i < $("player").length; i++) {
 
 
 
+$("player.player_dark").find(".player_icon").addClass("player_icon_white");
+$("player.player_light").find(".player_icon").addClass("player_icon_black");

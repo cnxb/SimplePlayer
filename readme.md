@@ -7,7 +7,6 @@
     ...
     <script src='https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js'/></script>
     <script src="https://cdn.jsdelivr.net/gh/jquery/jquery-color/jquery.color.js"> </script>
-    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/gh/cnxb/simpleplayer/simpleplayer.css" rel="stylesheet">
     ...
 </head>
