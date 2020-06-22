@@ -9,6 +9,7 @@ player {
     border: 5px solid;
     box-sizing: unset !important;
     transition: background-color 0.1s ease-in;
+    transition: border-radius 0.1s ease-out;
 
 }
 player:hover{
