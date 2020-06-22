@@ -20,17 +20,17 @@ $("player.player_light").hover(function () {
 );
 $("player").click(function () {
     if ($(this).find(".player_icon").hasClass("player_icon_pause")) {
-        $(this).find(".player_icon").css("transform", "rotate(360deg)");
+      //  $(this).find(".player_icon").css("transform", "rotate(360deg)");
 
         $(this).find(".player_icon").removeClass("player_icon_pause");
     
-        setTimeout(function () { $(this).find(".player_icon").css("transform", "rotate(0deg)"); }, 500);
+     //   setTimeout(function () { $(this).find(".player_icon").css("transform", "rotate(0deg)"); }, 500);
         audio[$(this).attr("id")].pause();
 
     } else {
-        $(this).find(".player_icon").css("transform", "rotate(360deg)");
+     //   $(this).find(".player_icon").css("transform", "rotate(360deg)");
         $(this).find(".player_icon").addClass("player_icon_pause");
-        $(this).find(".player_icon").css("transform", "rotate(0deg)");
+      //  $(this).find(".player_icon").css("transform", "rotate(0deg)");
         audio[$(this).attr("id")].play();
 
     }
