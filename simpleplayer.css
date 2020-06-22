@@ -12,7 +12,8 @@ player {
 
 }
 player:hover{
-    backdrop-filter:blur(10px);
+    
+    border-radius: 25%;
     border-top-width: 10px;
     border-bottom-width: 10px;
     border-left-width: 10px;
@@ -35,6 +36,7 @@ player:hover{
 
     background-color: rgba(0,0,0,1);
     color:white;
+
 }
 .player_dark:hover{
 
